@@ -1,0 +1,21 @@
+{
+    "name": "retro-by-tk",
+    "displayName": "retro-by-tk",
+    "description": "a retro vs code theme extension for vs code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "retro-by-tk",
+                "uiTheme": "vs-dark",
+                "path": "./themes/retro-by-tk-color-theme.json"
+            }
+        ]
+    }
+}
